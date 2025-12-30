@@ -769,7 +769,7 @@ for i in range(key_all_len):
 
     great_num=key
     
-    _ = plt.suptitle(f'the pass_num is {i}', fontsize=30,ㅇy=0.9)
+    _ = plt.suptitle(f'the pass_num is {i}', fontsize=30,y=0.9)
     draw('wound', loaded_dict_real_last, n_row=0, row_lim=(25,105), col_lim=(0,80), title=True, great_numb=great_num)  # great_numb=이미지 키번호 넣어야한다.
     
     # ====== 간격 조절 ======
